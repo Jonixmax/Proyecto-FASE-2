@@ -12,14 +12,17 @@ body {
     align-items: center;
     min-height: 267vh auto;
 }
-.contenido {
-    width: 75%; 
-    padding: 20px;
-    background-color: #fff; 
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    border-radius: 10px;
+@media (min-width: 992px) {
+    .contenido {
+        width: 75%; 
+        padding: 20px;
+        background-color: #fff; 
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+        border-radius: 10px;
+    }
 }
+
 
 .section-title {
     text-align: center;
