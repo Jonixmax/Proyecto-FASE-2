@@ -6,9 +6,29 @@ body {
    
 }
 
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+
+.contenido {
+    flex: 1;
+}
+
+
 footer {
     margin-top: auto;
 }
+
 
 .contenedor {
     display: flex;
