@@ -6,6 +6,10 @@ body {
    
 }
 
+footer {
+    margin-top: auto;
+}
+
 .contenedor {
     display: flex;
     justify-content: center; 
